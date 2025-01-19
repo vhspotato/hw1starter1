@@ -23,6 +23,10 @@ li{
     text-align:center;
 }
 
+footer{
+    background-color:#e5eaf5;
+}
+
 h1{
     font-size:large;
     font-family:Roboto, Oxygen, 'Helvetica Neue', sans-serif;
