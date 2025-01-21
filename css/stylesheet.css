@@ -42,7 +42,7 @@ footer{
 h1{
     font-size:large;
     font-family:Roboto, Oxygen, 'Helvetica Neue', sans-serif;
-    color:#320b5b;
+    color:#1e023d;
 
 }
 
@@ -83,5 +83,6 @@ button:hover{
 
 .current{
     text-transform:uppercase;
-    background-color:deeppink;
+    background-color:rgb(223, 164, 196);
+   
 }
