@@ -10,16 +10,28 @@ header{
 
 nav{
     background-color:#e5eaf5;
+    width:80%
+}
+
+nav img{
+    position:relative;
+    width:10%;
 }
 
 main{
-    background-color:yellow;
+    background-color:rgb(242, 242, 26);
     font-size:medium;
+}
+
+ul{
+    display:flex;
+    gap:20px;
+    justify-content:space-between;
 }
 
 li{
     display:inline-block;
-    width:33%;
+
     text-align:center;
 }
 
@@ -36,4 +48,40 @@ h1{
 
 p{
     line-height:120%;
+}
+
+div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap:10px;
+}
+
+.container img{
+    width:100%;
+}
+
+button{
+  /* background-color:rgb(212, 255, 212); */
+    text-decoration:double;
+    padding: 10px;
+    font-size:larger;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    
+}
+
+button:hover{
+    background-color:aqua;
+}
+
+.current{
+    text-transform:uppercase;
+    background-color:deeppink;
 }
